@@ -1,0 +1,143 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+
+* {
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+/*NAVIGATION*/
+
+nav{
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  height: 100%;
+  line-height: 80px;
+
+  font-weight: bold;
+}
+body{
+  background: #ecf0f1;
+  font-family: 'Exo 2', sans-serif;
+
+
+  margin: 0;
+  margin-bottom: 60px;
+
+}
+
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: all ease .25s;
+  display: inline-block;
+  color: #bdc3c7;
+  padding: 0 30px;
+}
+nav a:hover{
+  background: #bdc3c7;
+  color: #000;
+}
+/*hero*/
+ header {
+   background: url('../img/header-background.jpg') no-repeat;
+   height: 600px;
+   background-size: cover !important;
+   text-align: center;
+ }
+.contact{
+  background: url('../img/contact-background.jpg') no-repeat center;
+}
+ header h1{
+   color: #bdc3c7;
+
+   font-size: 48px;
+   margin: 0;
+   text-align: center;
+ }
+header a {
+  background: #bdc3c7;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  border-radius: 30px;
+  margin: 17px;
+  transition: background ease .25s;
+}
+header a:hover {
+  background: #000;
+
+}
+
+.parent {
+  overflow: hidden;
+  border: 1px solid black;
+  width: 100%;
+}
+.left {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.right {
+  float: right;
+}
+/*FORM*/
+form{
+text-align: center;
+background-color: #ecf0f1;
+padding: 40px 0;
+}
+form input, form textarea{
+  display: block;
+  margin: 10px auto;
+  border-radius: 46px;
+  border: 2px solid black;
+  padding: 0px 10px;
+  width: 300px;
+  min-height: 50px;
+  text-align: center;
+}
+form textarea{
+  border-radius: 25px;
+}
+form .buttom{
+  background-color: black;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/*FOOTER*/
+footer {
+  background: #fff;
+  line-height: 60px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+section {
+  overflow: auto;
+  text-align: center;
+  padding: 40px 0;
+  background: #ddd;
+}
+
+section div{
+  float: left;
+  padding: 0 15px;
+  width: 33.3%;
+
+
+}
+

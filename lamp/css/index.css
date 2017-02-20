@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #8e44ad;
+  position: relative;
+  margin: 0;
+  transition: background ease 1s;
+}
+html, body {
+  height: 100%;
+}
+.fa {
+  color: #2c3e50;
+  font-size: 110px;
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+transition: color ease 1s;
+ }
+body.on {
+  background: #f39c12;
+}
+.on .fa {
+  color: #c0392b;
+}
