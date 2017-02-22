@@ -1,0 +1,29 @@
+p {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 30px;
+}
+.dab {
+  text-align: center;
+}
+img {
+  width: 600px;
+}
+.bill {
+  font-size: 20px;
+  margin: 30px 150px;
+}
+.biografi {
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.citat{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.jumbotron .display-3 {
+  text-align: center;
+}
